@@ -15,4 +15,10 @@ void print_line(int n)
 	}
 	else
 	{
-
+		for (co = 1; co <= n; co++)
+		{
+			_putchar('_');
+		}
+		_putchar('\n');
+	}
+}
