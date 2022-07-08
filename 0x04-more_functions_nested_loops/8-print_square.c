@@ -5,24 +5,20 @@
  * @size: size of both width and length
  * Return: a square made of '#'
  */
-void print_square(int size)
-{
-	int co, ro;
 
-	if (size <= 0)
-	{
-		_putchar('\n');
-	}
-	else
-	{
-		for (co = 1; co <= size; co++)
-		{
-			_putchar('#');
-			for (ro = 2; ro <= size; ro++)
-			{
-				_putchar('#');
-			}
-			_putchar('\n');
-		}
-	}
-}	
+void print_square(int size)
+
+{
+
+int x, y;
+for (y = 0; y < size; y++)
+
+{
+for (x = 0; x < size; x++)
+_putchar('#');
+_putchar('\n');
+}
+if (size < 1)
+_putchar('\n');
+
+}
