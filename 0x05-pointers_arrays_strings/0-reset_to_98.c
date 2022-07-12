@@ -1,16 +1,12 @@
-#ifndef MAIN_H
-#define MAIN_H
-#include <stdlib.h>
+nclude "main.h"
 
-int _putchar(char c);
-void reset_to_98(int *n);
-void swap_int(int *a, int *b);
-size_t _strlen(const char *str);
-void _puts(char *str);
-void print_rev(char *s);
-void rev_string(char *s);
-void puts2(char *str);
-void puts_half(char *str);
-char *_strcpy(char *dest, char *src);
-
-#endif
+/**
+ * reset_to_98 - resets value of pointer to 98
+ * @n: pointer to reset to 98
+ *
+ * Return: void
+ */
+void reset_to_98(int *n)
+{
+	*n = 98;
+}	
