@@ -4,7 +4,7 @@
  * @dest: the concatenated string
  * @src: appended string to dest
  * @n: bytes
- * return: dest
+ * Return: the pointer to dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -27,4 +27,4 @@ char *_strncat(char *dest, char *src, int n)
 	dest[i] = '\0';
 
 	return (dest);
-}
+i}
